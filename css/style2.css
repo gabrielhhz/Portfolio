@@ -26,11 +26,14 @@ li a.active {
     background-color: #ffffff;
 }
 
-.about,
-.contact,
-#portfolio {
-    background-image: url(../img/fundo-body.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.about {
+    background-image: linear-gradient(#000000, #232223, #454245, #000000);
+}
+
+.portfolio {
+    background-image: linear-gradient(#000000, #454245, #232223, #000000);
+}
+
+.contact {
+    background-image: linear-gradient(#000000, #454245, #232223, #000000);
 }
