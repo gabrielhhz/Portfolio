@@ -24,9 +24,7 @@ body {
     background-color: #fdf9ff;
     display: flex;
     display: none;
-    -ms-flex-align: center;
     align-items: center;
-    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -76,7 +74,6 @@ select {
     left: 0;
     top: 0;
     z-index: 10;
-    border-right: 1px solid #e8dfec;
     padding: 30px;
 }
 
@@ -209,8 +206,6 @@ li a:hover {
     flex: 0 0 100%;
     max-width: 100%;
 }
-
-row {}
 
 .about .about-content .about-text {
     flex: 0 0 100%;

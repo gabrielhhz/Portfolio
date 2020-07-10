@@ -12,9 +12,7 @@
     background-color: #fdf9ff;
     display: flex;
     display: none;
-    -ms-flex-align: center;
     align-items: center;
-    -ms-flex-pack: center;
     justify-content: center;
 }
 
