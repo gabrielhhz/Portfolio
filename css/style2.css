@@ -1,22 +1,36 @@
-.aside .logo a::before{
+.aside .logo a::before {
     border-top: 4px solid #0702ff;
     border-left: 4px solid #fffb00;
 }
-.aside .logo a:after{
+
+.aside .logo a:after {
     border-bottom: 4px solid #fffb00;
     border-right: 4px solid #0702ff;
 }
+
 .about .about-content .about-text h3,
-li a:hover, li a.active  {
-    color: #0702ff
-}
-.active {
-    color: #0702ff;
-}
-.portfolio .portfolio-filter button.active {
-    border-color: #0702ff;
+li a:hover,
+li a.active {
+    color: #302cff;
 }
 
-.icones{
-    background-color: #0702ff;
+.active {
+    color: #ffffff;
+}
+
+.portfolio .portfolio-filter button.active {
+    border-color: #ffffff;
+}
+
+.icones {
+    background-color: #ffffff;
+}
+
+.about,
+.contact,
+#portfolio {
+    background-image: url(../img/fundo-body.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
