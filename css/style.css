@@ -525,7 +525,6 @@ li a:hover {
     text-align: center;
     border-radius: 50%;
     cursor: pointer;
-    text-outline: 50%;
     margin-top: -20px;
     z-index: 110px;
     transition: all 0.3s ease;
